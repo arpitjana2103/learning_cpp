@@ -12,6 +12,6 @@ int main()
     cout << "The address of a is &a = " << &a << endl;
     cout << "The value of a is *b = " << *b << endl;
     cout << "The value at &a is *&a = " << *&a << endl;
-    
+
     return 0;
 }
