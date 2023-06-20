@@ -12,7 +12,8 @@ int main()
     cout << "Value of a is : " << a << endl;
     cout << "Value of b is : " << b << endl;
     cout << "Product of a and b is : " << product(a, b) << endl;
-    cout << "Product of a and b is : " << product(a) << endl; // using default Argument
+    // using default Argument
+    cout << "Product of a and b is : " << product(a) << endl; 
 
     return 0;
 }
