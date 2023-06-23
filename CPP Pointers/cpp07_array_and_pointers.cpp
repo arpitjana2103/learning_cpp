@@ -14,9 +14,9 @@ int main()
 
     int *ptr = marks;
 
-    cout << "Value of marks[0] : " << *(ptr++) << endl;
-    cout << "Value of marks[1] : " << *(ptr++) << endl;
-    cout << "Value of marks[2] : " << *(ptr++) << endl;
+    cout << "Value of marks[0] : " << ptr[0] << endl;
+    cout << "Value of marks[1] : " << *ptr++ << endl;
+    cout << "Value of marks[2] : " << *ptr++ << endl;
 
     return 0;
 }
