@@ -1,5 +1,4 @@
 /*
-
 COMPONENTS OF STL :
 
 1. Containers
@@ -12,7 +11,6 @@ COMPONENTS OF STL :
 --> Object points to an element in a container
 --> Handle just like pointers
 --> Connects algorithm with containers
-
 */
 
 /*
