@@ -15,8 +15,8 @@ int main()
     vector<int> v1(5);
     // v2 = { 0, 0, 0, 0, 0 }
 
-    vector<int> v2(5, 100);
-    // v3 = { 100, 100, 100, 100, 100 }
+    vector<int> v2(2, 40);
+    // v3 = { 40, 40 }
 
     // access the values in vector
     cout << v[0] << endl;
@@ -65,6 +65,26 @@ int main()
 
     v.insert(v.begin() + 1, 2, 10);
     // v = { 300, 10, 10, 1, 2, 3, 4, 5 }
+
+    // Insert Vector Inside Vector
+    // v = { 300, 10, 10, 1, 2, 3, 4, 5 }
+    // v2 = { 40, 40 }
+    v.insert(v.begin(), v2.begin(), v2.end());
+    // v = { 40, 40, 300, 10, 10, 1, 2, 3, 4, 5 }
+
+    //----------------------------------------------------------------------------- VECTOR SIZE
+    cout << v.size();
+    // v = { 40, 40, 300, 10, 10, 1, 2, 3, 4, 5 }
+    v.pop_back(); // Return : { 5 }
+    // v = { 40, 40, 300, 10, 10, 1, 2, 3, 4 }
+    // v2 = { 40, 40 }
+    v.swap(v2);
+    // v = { 40, 40 }
+    // v2 = { 40, 40, 300, 10, 10, 1, 2, 3, 4 }
+    v.clear();
+    // v = { }
+    cout << v.empty();
+    // output : true
 
     return 0;
 }
