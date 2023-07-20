@@ -6,7 +6,6 @@ using namespace std;
 void func1(auto &);
 void func2(vector<int> *);
 
-
 int main()
 {
     vector<int> vec = {5, 8};
