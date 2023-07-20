@@ -2,7 +2,7 @@
 using namespace std;
 #define MAX 1000
 
-bool hashh[MAX + 1][2];
+bool hashh[2][MAX + 1];
 
 void insert(int arr[], int n)
 {
